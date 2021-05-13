@@ -13,10 +13,10 @@ spec:
       resources:
         requests:
           cpu: 100m
-          memory: 512m
+          memory: 512Mi
         limits:
           cpu: 1000m
-          memory: 1024m
+          memory: 1024Mi
       volumeClaimSpec:
         accessModes:
         - "ReadWriteOnce"
