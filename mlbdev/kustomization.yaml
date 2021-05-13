@@ -1,4 +1,4 @@
-namespace: zoo
+namespace: sports
 
 resources:
 - ha-postgres.yaml
