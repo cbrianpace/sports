@@ -9,7 +9,7 @@ spec:
   postgresVersion: 13
   instances:
     - name: 'pgc'
-      replicas: 2
+      replicas: 1
       volumeClaimSpec:
         accessModes:
         - "ReadWriteOnce"
