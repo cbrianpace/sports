@@ -10,7 +10,7 @@ spec:
   port: 5432
   postgresVersion: 13
   instances:
-    - name: pgc
+    - name: 'pgc'
       replicas: 2
       volumeClaimSpec:
         accessModes:
