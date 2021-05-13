@@ -12,10 +12,10 @@ spec:
       replicas: 1
       resources:
         requests:
-          cpu: 100m
+          cpu: 2.0
           memory: 512Mi
         limits:
-          cpu: 1000m
+          cpu: 1.0
           memory: 1024Mi
       volumeClaimSpec:
         accessModes:
