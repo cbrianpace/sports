@@ -10,13 +10,6 @@ spec:
   instances:
     - name: 'pgc'
       replicas: 1
-      resources:
-        requests:
-          cpu: 2.0
-          memory: 512Mi
-        limits:
-          cpu: 1.0
-          memory: 1024Mi
       volumeClaimSpec:
         accessModes:
         - "ReadWriteOnce"
