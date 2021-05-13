@@ -17,6 +17,11 @@ spec:
         resources:
           requests:
             storage: 10Gi
+            cpu: 100m
+            memory: 512m
+          limits:
+            cpu: 1000m
+            memory: 1024m
   archive:
     pgbackrest:
       image: us.gcr.io/container-suite/crunchy-pgbackrest:ubi8-13.2-ci-latest
