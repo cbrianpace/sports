@@ -32,8 +32,4 @@ spec:
             resources:
               requests:
                 storage: 10Gi
-  proxy:
-    pgBouncer:
-      image: us.gcr.io/container-suite/crunchy-pgbouncer:ubi8-13.2-ci-latest
-      port: 5432
-      replicas: 1
+
