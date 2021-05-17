@@ -13,6 +13,7 @@ spec:
       volumeClaimSpec:
         accessModes:
         - "ReadWriteOnce"
+        storageClassName: "standard"
         resources:
           requests:
             storage: 10Gi
@@ -27,6 +28,7 @@ spec:
           volumeClaimSpec:
             accessModes:
             - "ReadWriteOnce"
+            storageClassName: "standard"
             resources:
               requests:
                 storage: 10Gi
