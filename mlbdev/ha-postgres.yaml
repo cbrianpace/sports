@@ -13,7 +13,6 @@ spec:
       volumeClaimSpec:
         accessModes:
         - "ReadWriteOnce"
-        storageClassName: "freenas-nfs-csi"
         resources:
           requests:
             storage: 10Gi
@@ -28,7 +27,6 @@ spec:
           volumeClaimSpec:
             accessModes:
             - "ReadWriteOnce"
-            storageClassName: "freenas-nfs-csi"
             resources:
               requests:
                 storage: 10Gi
