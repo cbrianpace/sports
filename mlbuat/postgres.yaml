@@ -9,14 +9,11 @@ spec:
   postgresVersion: 13
   instances:
     - name: 'pgc'
-      replicas: 2
+      replicas: 3
       resources:
         limits:
           cpu: 1.0
           memory: 2Gi
-        requests:
-          cpu: 1.0
-          memory: 1Gi
       volumeClaimSpec:
         accessModes:
         - "ReadWriteOnce"
