@@ -23,12 +23,13 @@ spec:
             storage: 10Gi
 
   patroni:
-    postgresql:
-      parameters:
-        max_parallel_workers: 2
-        max_worker_processes: 2
-        shared_buffers: 256Mi
-        work_mem: 2Mi
+    dynamicConfiguration:
+      postgresql:
+        parameters:
+          max_parallel_workers: 2
+          max_worker_processes: 2
+          shared_buffers: 256MB
+          work_mem: 2MB
 
   archive:
     pgbackrest:
